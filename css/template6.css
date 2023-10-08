@@ -1,0 +1,95 @@
+.left {
+    margin-left: 170px;
+    width: 30%;
+}
+
+.right {
+    width: 30%;
+    float: right;
+    margin-top: -50px;
+}
+
+.navi {
+    word-spacing: 50px;
+    margin-left: 150px;
+    margin-top: -5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.num {
+    float: right;
+    color: blue;
+    margin-top: -10px;
+    margin-right: 40px;
+}
+
+a:hover {
+    text-decoration: overline 4px solid blue;
+}
+
+.head {
+    height: 50px;
+}
+
+.cen {
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: -500px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: -20px;
+}
+
+.con {
+    font-size: 25px;
+}
+
+button {
+    background-color: rgb(126, 126, 2);
+    color: white;
+    padding: 10px;
+}
+
+.frst {
+    background-color: orange;
+   
+}
+
+.sec {
+    background-color: yellowgreen;
+
+}
+
+.thrd {
+    background-color: rgb(40, 40, 168);
+}
+
+.main {
+    display: grid;
+    
+    grid-template-columns: repeat(3, 300px);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.main2{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 300px);
+    color:black;
+
+    justify-content: center;
+    margin-top: 50px;
+}

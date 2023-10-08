@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxshadow</title>
+    <script src="https://kit.fontawesome.com/5a5b095c63.js" crossorigin="anonymous"></script>
+    <style>
+        .frst{
+            height: 300px;
+            width: 250px;
+            background-color: cornflowerblue;
+            box-shadow: 15px 10px 15px rgb(240, 63, 93);
+            text-indent: 30px;
+            border-radius: 20px;
+            padding: 20px;
+          
+        }
+        .sec{
+            height: 300px;
+            width: 250px;
+            background-color: cornflowerblue;
+            box-shadow: 15px 10px 15px rgb(240, 63, 93);
+            text-indent: 30px;
+            border-radius: 20px;
+            padding: 20px;
+           
+           
+        }
+        .thrd{
+            height: 300px;
+            width: 250px;
+            background-color: cornflowerblue;
+            box-shadow: 15px 10px 15px rgb(240, 63, 93);
+            text-indent: 30px;
+            border-radius: 20px;
+            padding: 20px;
+            
+            
+        }
+        .main{
+
+            display: grid;
+            grid-template-columns:repeat(3,250px);
+            grid-gap: 100px;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 80px;
+        }
+        .frst:hover{
+            background-color: aqua;
+        }
+        .sec:hover{
+            background-color: chartreuse;
+        }
+        .thrd:hover{
+            background-color: darksalmon;
+        }
+        .com{
+            background-image: linear-gradient(to left, red ,yellow);
+            height: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="frst">
+            <h2>Design<i class="fa-solid fa-arrow-up-right-dots fa-bounce fa-2xl" style="color: #f20202;"></i></h2>
+            <p>Design process steps.<br> The five main steps in the design process <br>are Empathize, Define, Ideate,
+                Deliver, and Test.<br> You might hear different names <br>to describe these steps, but this is how most
+                <br>design processes unfold.
+            </p>
+            <div class="com"></div>
+            
+        </div>
+        <div class="sec">
+            <h2>Design <i class="fa-solid fa-envelope-open-text fa-fade fa-2xl" style="color: #f56200;"></i></h2>
+            <p>Design thinking refers to<br> the set of cognitive, strategic and <br>practical procedures used by
+                designers<br> in the process of designing, <br>and to the body kowledge that <br>has been developed
+                about how people<br> reason when engaging with design problems.</p>
+                <div class="com"></div>
+        </div>
+        <div class="thrd">
+            <h2>Design <i class="fa-solid fa-user-tie fa-fade fa-2xl" style="color: #ff6600;"></i></h2>
+            <p>The goal of the design thinking <br> process is to come up with solutions,<br> products, or services that are <br>
+                desirable for the user, <br>economically viable from a business <br> perspective, and technologically feasible.
+            </p>
+            <div class="com"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

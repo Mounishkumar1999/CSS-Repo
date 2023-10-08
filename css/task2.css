@@ -1,0 +1,122 @@
+.img{
+    text-align: center; 
+    word-spacing: 5px;   
+}
+i{
+    background-color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50px; 
+    margin-top: 20px;
+}
+.pic{
+    background-image: url('https://images.unsplash.com/photo-1672841828482-45faa4c70e50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80');
+    background-size: cover;
+    height: 600px;
+}
+.head{
+    display: flex;
+    background-color: white;
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: 40px;
+    height: 40px;
+    
+}
+.head1{
+    color: red;
+    margin-top: 1px;
+}
+.now{
+    margin-left: 500px;
+    margin-top: 8px;
+    word-spacing: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: overline 5px red;   
+}
+.cen{
+    color: white;
+    width: 250px;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 600px;
+
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.course{
+    width: 400px;
+    text-align: center;
+    margin-left: 550px;
+}
+.frst{
+   display: flex;
+   flex-wrap: wrap;
+   width: 1300px;
+   justify-content: space-evenly;
+   margin-left: 100px;
+
+}
+.ud{
+    text-decoration: underline;
+}
+.red{
+    background-color: red;
+    width: 250px;
+    height: 200px;
+}
+.green{
+    background-color: green;
+    width: 250px;
+    height: 200px;
+}
+.blue{
+    background-color: blue;
+    width: 250px;
+    height: 200px;
+}
+.pink{
+    background-color: pink;
+    width: 250px;
+    height: 200px;
+}
+#one{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid white; 
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.course1{
+    width: 400px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: space-between;
+    margin-left: 135px;
+    row-gap: 50px;
+    column-gap: -20px;
+    
+
+}
+.images{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}

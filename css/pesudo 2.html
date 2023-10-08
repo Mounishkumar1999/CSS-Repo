@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo Element</title>
+    <style>
+        div::first-letter {
+            font-size: xx-large;
+            color: rgb(210, 48, 11);
+        }
+
+        div::first-line {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(20, 237, 230);
+        }
+
+        h1::before {
+            content: 'Hey';
+            color: rgb(184, 15, 136);
+            text-shadow: 3px 3px 4px red;
+        }
+
+        h2::after {
+            content: ' machinery';
+            color: rgb(84, 4, 60);
+            text-shadow: 3px 5px 3px greenyellow;
+        }
+
+        ::marker {
+            color: rgb(139, 11, 11);
+            font-size: 25px;
+        }
+        ::selection{
+            color: rgb(135, 64, 6);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Machinery</h1>
+
+    </div>
+    <div class="second">
+        <p>Your experts help you use data to drive innovation and impact through the use of artificial intelligence,
+            machine learning, and intelligent automation.</p>
+    </div>
+    <div class="third">
+        <p>they collaborate with clients to develop robust, agile machine strategies that leverage a modern technology
+            architecture to enable the future of the organization. Throughout your transformation journey, from IT
+            assessments, portfolio optimization and program management, to technology modernization and cloud migration,
+            Guidehouse supports you every step of the way to realize your business goals.</p>
+        <h2>Different Types</h2>
+    </div>
+    <ul>
+        <li>tata</li>
+        <li>kgisl</li>
+        <li>IBM</li>
+    </ul>
+</body>
+
+</html>
